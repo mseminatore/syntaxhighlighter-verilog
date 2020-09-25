@@ -12,6 +12,6 @@ the language from the Settings, or by wrapping it in the 'v' or 'verilog' shortc
 
 ## Installation
 
-1. Make sure the Syntaxhighlighter Evolved plugin is installed and activated
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. First, make sure the Syntaxhighlighter Evolved plugin is installed and activated
+2. Upload and install `syntaxhighlighter-verilog.zip` using the WordPress Add New plugin manager
+3. Activate this plugin from the list of Installed plugins
