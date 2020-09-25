@@ -8,11 +8,7 @@ The plugin is simple to use. After you have installed and activated the SyntaxHi
 simply upload this plugin and activate it. Then you can add Verilog highlighting to any code by setting
 the language from the Settings, or by wrapping it in the 'v' or 'verilog' shortcode.
 
-> You must install SyntaxHighlighter Evolved first.
-
-## Usage
-[v][/v]
-[Verilog][/Verilog]
+> Note: You must install and activate SyntaxHighlighter Evolved first.
 
 ## Installation
 
