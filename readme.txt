@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== SyntaxHighlighter Evolved: Verilog Brush ===
 Contributors: mseminatore
 Donate link: https://example.com/
 Tags: syntaxhighlighter, verilog
