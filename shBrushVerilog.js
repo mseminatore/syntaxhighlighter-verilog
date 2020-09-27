@@ -17,8 +17,7 @@
 		this.regexList = [
 			{ regex: SyntaxHighlighter.regexLib.singleLineCComments,	css: 'comments' },			// one line comments
 			{ regex: SyntaxHighlighter.regexLib.multiLineCComments,		css: 'comments' },			// multiline comments
-            { regex: /(R|L|U|u|u8)?"([^\\"\n]|\\.)*"/g,                 css: 'string' },			// special character
-            { regex: /(R|L|U|u|u8)?'([^\\'\n]|\\.)*'/g,                 css: 'string' },			// special string
+		        { regex: /(R|L|U|u|u8)?"([^\\"\n]|\\.)*"/g,                 	css: 'string' },			// special character
 			{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },			// strings
 			{ regex: new RegExp(this.getKeywords(datatypes), 'gm'),		css: 'color1 bold' },
 			{ regex: new RegExp(this.getKeywords(functions), 'gm'),		css: 'functions bold' },
