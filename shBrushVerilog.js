@@ -20,7 +20,6 @@
             { regex: /(R|L|U|u|u8)?"([^\\"\n]|\\.)*"/g,                 css: 'string' },			// special character
             { regex: /(R|L|U|u|u8)?'([^\\'\n]|\\.)*'/g,                 css: 'string' },			// special string
 			{ regex: SyntaxHighlighter.regexLib.doubleQuotedString,		css: 'string' },			// strings
-			{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },			// strings
 			{ regex: new RegExp(this.getKeywords(datatypes), 'gm'),		css: 'color1 bold' },
 			{ regex: new RegExp(this.getKeywords(functions), 'gm'),		css: 'functions bold' },
 			{ regex: new RegExp(this.getKeywords(keywords), 'gm'),		css: 'keyword bold' }
