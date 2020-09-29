@@ -2,7 +2,7 @@
 /*
 Plugin Name: SyntaxHighlighter Evolved: Verilog Brush
 Description: Adds support for the Verilog language to the SyntaxHighlighter Evolved plugin.
-Author: Mark seminatore
+Author: Mark Seminatore
 Version: 1.0.5
 Author URI: https://fpgacoding.com
 */
