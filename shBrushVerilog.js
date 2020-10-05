@@ -6,11 +6,11 @@
 	function Brush()
 	{
 	
-		var datatypes =	'wire reg integer real ';
+		var datatypes =	'wire reg integer real time ';
 
-		var keywords =	'always assign begin case posedge else end endmodule for if negedge ' +
-						'inout input module forever endcase output parameter ' +
-						'repeat initial localparam ';
+		var keywords =	'always assign begin case casex casez default else end endcase endmodule for forever ' +
+						'if initial inout input localparam module negedge output parameter posedge ' +
+						'repeat ';
 					
 		var functions =	'and or nand nor not xor ';
 
