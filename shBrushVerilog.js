@@ -10,7 +10,7 @@
 
 		var keywords =	'always assign begin case casex casez default else end endcase endmodule for forever ' +
 						'if initial inout input localparam module negedge output parameter posedge ' +
-						'repeat table endtable primitive endprimitive';
+						'repeat table endtable primitive endprimitive task endtask function endfunction';
 					
 		var functions =	'and or nand nor not xor ';
 
