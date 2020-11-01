@@ -8,9 +8,9 @@
 	
 		var datatypes =	'wire reg integer real time ';
 
-		var keywords =	'always assign begin case casex casez default else end endcase endmodule for forever ' +
-						'if initial inout input localparam module negedge output parameter posedge ' +
-						'repeat table endtable primitive endprimitive task endtask function endfunction';
+		var keywords =	'always assign begin case casex casez default else end endcase endfunction endmodule endprimitive endtable endtask ' +
+						'for forever function if initial inout input localparam module negedge output parameter posedge primitive ' +
+						'repeat table task timescale while';
 					
 		var functions =	'and or nand nor not xor ';
 
