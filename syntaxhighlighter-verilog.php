@@ -16,7 +16,7 @@ add_filter( 'syntaxhighlighter_brush_names', 'syntaxhighlighter_verilog_addname'
 
 // Register the brush file with WordPress
 function syntaxhighlighter_verilog_regscript() {
-    wp_register_script( 'syntaxhighlighter-brush-verilog', plugins_url( 'shBrushVerilog.js', __FILE__ ), array('syntaxhighlighter-core'), '1.0.11', true );
+    wp_register_script( 'syntaxhighlighter-brush-verilog', plugins_url( 'shBrushVerilog.js', __FILE__ ), array('syntaxhighlighter-core'), '1.0.14', true );
 }
  
 // Filter SyntaxHighlighter Evolved's language array
